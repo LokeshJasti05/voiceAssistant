@@ -1,0 +1,30 @@
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+.DS_Store
+*.log
+
+# VS Code
+.vscode/
+
+# Jupyter, pytest, mypy, others
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.tox/
+.cache/
+
+# OS X
+Icon?
+
+# Local environment overrides
+.env.local
+.env.*
+!.env.example
